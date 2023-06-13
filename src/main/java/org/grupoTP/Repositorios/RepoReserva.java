@@ -69,7 +69,17 @@ public class RepoReserva implements IntRepository<Reserva> {
 
         for(Reserva res: this.listaReservas){
             if(res.getNroReserva() == reserva.getNroReserva()){
-                res = reserva;
+                res.setNroHabitacion(reserva.getNroHabitacion());
+                res.setFechaIngreso(reserva.getFechaIngreso());
+                res.setFechaEgreso(reserva.getFechaEgreso());
+                res.setEstado(reserva.getEstado());
+                res.setTipo(reserva.getTipo());
+                res.setPension(reserva.getPension());
+                res.setFormaPago(reserva.getFormaPago());
+                res.setNombre(reserva.getNombre());
+                res.setApellido(reserva.getApellido());
+                res.setDni(reserva.getDni());
+                res.setTelefono(reserva.getTelefono());
                 break;
             }
         }

@@ -69,7 +69,11 @@ public class RepoPersonal implements IntRepository<Empleado> {
 
         for(Empleado emp: this.listaEmpleados){
             if(emp.getLegajo() == empleado.getLegajo()){
-                emp = empleado;
+                emp.setArea(empleado.getArea());
+                emp.setNombre(empleado.getNombre());
+                emp.setApellido(empleado.getApellido());
+                emp.setDni(empleado.getDni());
+                emp.setDni(empleado.getDni());
                 break;
             }
         }

@@ -61,15 +61,17 @@ public class RepoHotel implements IntRepository<Habitacion> {
             }
             guardar();
         }
-
-    @Override
-    public void modificar(Habitacion habitacion) {
+        @Override
+        public void modificar(Habitacion habitacion) {
 
         cargar();
 
         for (Habitacion hab : this.listaHabitaciones) {
             if (hab.getNumero() == habitacion.getNumero()) {
-                hab = habitacion;
+                hab.setPiso(habitacion.getPiso());
+                hab.setTipo(habitacion.getTipo());
+                hab.setCochera(habitacion.getCochera());
+                hab.setEstado(habitacion.getEstado());
                 break;
             }
         }

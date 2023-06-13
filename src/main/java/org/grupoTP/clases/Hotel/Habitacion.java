@@ -14,6 +14,7 @@ public class Habitacion implements Serializable{
     private EstadoHabitacion estado;
 
     //region Constructores
+    public Habitacion(){}
     public Habitacion(int numero, int piso, TipoHabitacion tipo, boolean cochera, EstadoHabitacion estado) {
         this.numero = numero;
         this.piso = piso;
@@ -48,7 +49,7 @@ public class Habitacion implements Serializable{
         this.tipo = tipo;
     }
 
-    public boolean isCochera() {
+    public boolean getCochera() {
         return cochera;
     }
 
