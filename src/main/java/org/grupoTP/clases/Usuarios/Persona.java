@@ -9,11 +9,6 @@ public abstract class Persona extends Cuenta{
     protected String apellido;
     protected String dni;
     protected String telefono;
-    protected String mail;
-    protected String password;
-
-
-
 
     //region Constructores
 

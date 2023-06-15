@@ -6,19 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c2bf7bbb-0340-4a07-8080-b7adad2768af" name="Changes" comment="1 commit hecho con repositorys">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/grupoTP/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/grupoTP/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/grupoTP/Menu/MenuPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/grupoTP/Menu/MenuLogueo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/grupoTP/Repositorios/RepoHotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/grupoTP/Repositorios/RepoHotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/grupoTP/Repositorios/RepoPersonal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/grupoTP/Repositorios/RepoPersonal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/grupoTP/Repositorios/RepoReserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/grupoTP/Repositorios/RepoReserva.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/grupoTP/clases/Hotel/GestionHotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/grupoTP/clases/Hotel/GestionHotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/grupoTP/clases/Hotel/Habitacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/grupoTP/clases/Hotel/Habitacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/grupoTP/clases/Hotel/MenuHotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/grupoTP/clases/Hotel/MenuHotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/grupoTP/clases/Usuarios/Empleados/GestionEmpleados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/grupoTP/clases/Usuarios/Empleados/GestionEmpleados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/grupoTP/clases/Usuarios/Empleados/MenuEmpleados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/grupoTP/clases/Usuarios/Empleados/MenuEmpleados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/grupoTP/clases/Usuarios/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/grupoTP/clases/Usuarios/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/grupoTP/clases/Usuarios/Reserva/GestionReservas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/grupoTP/clases/Usuarios/Reserva/GestionReservas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/grupoTP/clases/Usuarios/Reserva/MenuReservas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/grupoTP/clases/Usuarios/Reserva/MenuReservas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686688027490</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1 commit hecho con repositorys">
+      <created>1686864061280</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686864061280</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,7 +106,39 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
