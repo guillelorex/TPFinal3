@@ -13,7 +13,7 @@ import java.util.List;
 
 public class RepoHotel implements IntRepository<Habitacion> {
 
-        private final File archivo = new File("src/main/java/org/grupoTP/Archivos/hotel.json");
+        private final File archivo = new File("src/main/resources/hotel.json");
         private final ObjectMapper mapper = new ObjectMapper();
         private List<Habitacion> listaHabitaciones;
 

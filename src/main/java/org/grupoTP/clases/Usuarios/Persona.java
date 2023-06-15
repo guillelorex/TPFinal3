@@ -2,7 +2,7 @@ package org.grupoTP.clases.Usuarios;
 
 import java.util.Objects;
 
-public abstract class Persona {
+public abstract class Persona extends Cuenta{
 
 
     protected String nombre;
@@ -11,6 +11,8 @@ public abstract class Persona {
     protected String telefono;
     protected String mail;
     protected String password;
+
+
 
 
     //region Constructores

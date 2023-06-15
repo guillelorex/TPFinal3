@@ -6,8 +6,6 @@ import java.util.Scanner;
 
 public class GestionHotel {
 
-    public GestionHotel(){}
-
     RepoHotel gestion = new RepoHotel();
 
     public void cambiarEstado(Habitacion habitacion){

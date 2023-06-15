@@ -13,7 +13,7 @@ import java.util.List;
 
 public class RepoReserva implements IntRepository<Reserva> {
 
-    private final File archivo = new File("src/main/java/org/grupoTP/Archivos/reservas.json");
+    private final File archivo = new File("src/main/resources/reservas.json");
     private final ObjectMapper mapper = new ObjectMapper();
     private List<Reserva> listaReservas;
 

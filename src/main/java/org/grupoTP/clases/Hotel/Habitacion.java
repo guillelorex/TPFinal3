@@ -81,7 +81,7 @@ public class Habitacion implements Serializable{
 
     //endregion
 
-    //region equals and hashCode
+    //region Equals and HashCode
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

@@ -1,6 +1,6 @@
 package org.grupoTP;
 
-import org.grupoTP.Menu.MenuPrincipal;
+import org.grupoTP.Menu.MenuLogueo;
 
 
 public class Main {
@@ -20,9 +20,8 @@ public class Main {
         reservas.listar().forEach(System.out::println);
         */
 
-
-        MenuPrincipal menuPrincipal = new MenuPrincipal();
-        menuPrincipal.menuPrincipal();
+        MenuLogueo menuLogueo = new MenuLogueo();
+        menuLogueo.menuPrincipal();
 
     }
 }
